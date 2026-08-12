@@ -6,10 +6,10 @@
   "version": "0.17.5",
   "image": "ghcr.io/containerpak/modrinth:main",
   "binaries": [
-    "/usr/bin/modrinth-app"
+    "/usr/bin/ModrinthApp"
   ],
   "desktop_entries": [
-    "/usr/share/applications/com.modrinth.theseus.desktop"
+    "/usr/share/applications/Modrinth App.desktop"
   ],
   "dependencies": [
 

@@ -49,6 +49,6 @@ jobs:
           provenance: mode=max
           sbom: true
       - name: Verify exports
-        run: docker run --rm ghcr.io/containerpak/modrinth:main sh -c 'test -x /usr/bin/modrinth-app && test -f /usr/share/applications/com.modrinth.theseus.desktop'
+        run: docker run --rm ghcr.io/containerpak/modrinth:main sh -c 'test -x /usr/bin/ModrinthApp && test -f "/usr/share/applications/Modrinth App.desktop"'
       - name: Publish summary
         run: echo "ghcr.io/containerpak/modrinth@${{ steps.build.outputs.digest }}" >> "$GITHUB_STEP_SUMMARY"
