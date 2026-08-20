@@ -1,6 +1,6 @@
 FROM ubuntu:26.04 AS source
 
-ADD --checksum=sha256:ba51a433163797c632ea22da10f85eff3d4d58076e0a33dfbbd84da246656175 https://github.com/modrinth/code/releases/download/v0.17.5/Modrinth.App_0.17.5_amd64.deb /tmp/source
+ADD --checksum=sha256:93664a0d250dab7f6f6b79a972584e94e2c09496ca2205161ea0d6ea54c27717 https://github.com/modrinth/code/releases/download/v0.18.0/Modrinth.App_0.18.0_amd64.deb /tmp/source
 
 FROM ghcr.io/containerpak/webkitgtk:main
 
