@@ -3,7 +3,7 @@
   "manifest_version": "3.0",
   "name": "Modrinth App",
   "description": "Install and manage Minecraft content.",
-  "version": "0.20.4",
+  "version": "0.20.5",
   "image": "ghcr.io/containerpak/modrinth@sha256:beba0474cf6c18be51ba2a21afa87f79b75063fe52b0ebe66b15e4843a850d9b",
   "binaries": [
     "/usr/bin/ModrinthApp"
