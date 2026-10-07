@@ -4,7 +4,7 @@
   "name": "Modrinth App",
   "description": "Install and manage Minecraft content.",
   "version": "0.21.2",
-  "image": "ghcr.io/containerpak/modrinth@sha256:db1cfde8247cb870c06c90f97d95507b7ba6879ca376ff005ce752c430e2c664",
+  "image": "ghcr.io/containerpak/modrinth@sha256:33a406f4896eff15b57baa0ed3a3f0ab033ba1c1a1421f5046fcde71770e7822",
   "binaries": [
     "/usr/bin/ModrinthApp"
   ],
